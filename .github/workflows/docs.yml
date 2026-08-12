@@ -33,6 +33,7 @@ jobs:
 
       - name: Auto-generate rules.rst (optional)
         run: |
+          cd docs
           if [ -f docs/gen_rules_rst.py ]; then
             python docs/gen_rules_rst.py
           fi
