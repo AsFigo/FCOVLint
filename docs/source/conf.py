@@ -22,6 +22,7 @@ autodoc_default_options = {
     "exclude-members": "apply, lvMsg",  # Explicitly hide internal methods/attrs
     "show-inheritance": True,
 }
+autodoc_mock_imports = ["anytree", "tomli", "verible_verilog_syntax"]
 
 autodoc_docstring_signature = True
 
